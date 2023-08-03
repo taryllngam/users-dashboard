@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @layer scroll-m-0 croll-p-0;
+}
+
+.welcome {
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500 flex min-h-screen w-full items-center box-border justify-center text-cyan-500 text-xl h-full;
+}
+
+.welcome1 {
+  @apply p-9 bg-gray-100 flex items-center  justify-center
+    flex-col w-screen;
+}
+
+h1 {
+  @apply text-7xl;
+}
+
+.btn {
+  @apply shadow-lg;
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    @apply text-4xl;
+  }
+  
+  .btn {
+    @apply shadow-xl;
+  }
+}

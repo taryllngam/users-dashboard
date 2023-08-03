@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @layer scroll-m-0 croll-p-0;
+}
+
+.form {
+  @apply h-fit		 bg-gray-100 flex items-center  justify-center
+     flex-col gap-8 p-56;
+}
+
+h1 {
+  @apply self-center text-cyan-500 text-2xl;
+}
+
+.display {
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500 flex h-full w-screen items-center box-border justify-center text-cyan-500 text-xl;
+}
+
+.display2 {
+  @apply flex-col;
+}
+
+.display1 {
+  @apply flex flex-col;
+}
+
+input {
+  @apply w-96 h-10 	box-border	shadow-lg;
+}
+
+.display3 .img {
+  @apply border-none	shadow-none	w-96 h-10;
+}
+
+.btn {
+  @apply shadow-lg;
+}
+
+.btn {
+  width: 12vh;
+  height: 9vh;
+  align-self: center;
+}
