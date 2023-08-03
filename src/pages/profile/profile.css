@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.welcome1 {
+  @apply my-0 p-2 bg-gray-100 flex items-start  justify-start
+  flex-col w-screen;
+}
+
+.welcome1 h3 {
+  @apply text-5xl p-8;
+}
+
+.infos h2 {
+  @apply text-5xl;
+}
+
+.btn {
+  @apply shadow-md flex flex-row items-center justify-center;
+}
+
+.info {
+  @apply flex flex-col gap-9;
+}
+
+.infos {
+  @apply border-b-8 flex flex-col gap-4;
+}
+
+img {
+  width: 50vw;
+}
